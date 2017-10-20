@@ -6,7 +6,7 @@ spring:
       label: master
       server:
         git:
-          uri:
-          searchPaths: springcloudserver/src/main/resource
+          uri:  https://github.com/DreamsChaser/spring-cloud-config/
+          searchPaths: src/main/resource/public
 
 
